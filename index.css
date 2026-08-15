@@ -16,7 +16,7 @@ body {
 /* ================= NAVBAR ================= */
 .navbar {
   width: 100%;
-  background: linear-gradient(90deg, #31063b, #040285);
+  background: linear-gradient(90deg, #063b2b, #02850d);
   box-shadow: 0 2px 10px rgba(223, 225, 231, 0.3);
   position: sticky;
   top: 0;
@@ -43,7 +43,7 @@ body {
 }
 
 .logo span {
-  color: rgb(2, 12, 59);
+  color: rgb(2, 59, 35);
 }
 
 .nav-right {
@@ -54,7 +54,7 @@ body {
 /* BUTTON */
 .menu-btn,
 .icon-btn {
-  background: linear-gradient(145deg, #140224, #00021a);
+  background: linear-gradient(145deg, #140224, #001a0a);
   border: none;
   color: white;
   padding: 8px 10px;
@@ -67,7 +67,7 @@ body {
 
 .menu-btn:hover,
 .icon-btn:hover {
-  background: linear-gradient(145deg, #000f50, #03002a);
+  background: linear-gradient(145deg, #005014, #002a09);
   transform: scale(1.05);
 }
 
@@ -97,7 +97,7 @@ body {
   left: -260px;
   width: 260px;
   height: 100%;
-  background: linear-gradient(180deg, #000000, #03002b);
+  background: linear-gradient(180deg, #000000, #002b0b);
   box-shadow: 2px 0 15px rgba(34, 3, 59, 0.5);
   transition: 0.3s;
   z-index: 999;
@@ -113,7 +113,7 @@ body {
 }
 
 .sidebar-header span {
-  color: rgb(46, 3, 66);
+  color: rgb(3, 46, 66);
 }
 
 /* ================= MENU ================= */
@@ -126,14 +126,14 @@ body {
   padding: 12px;
   margin-bottom: 8px;
   border-radius: 10px;
-  background: #00001a;
+  background: #001a08;
   color: white;
   cursor: pointer;
   transition: 0.2s;
 }
 
 .sidebar-menu li:hover {
-  background: #060040;
+  background: #004009;
   transform: translateX(5px);
 }
 
@@ -151,11 +151,11 @@ body {
 }
 
 .login {
-  border: 1px solid rgb(44, 2, 83);
+  border: 1px solid rgb(2, 83, 49);
 }
 
 .register {
-  background: rgb(26, 1, 54);
+  background: rgb(1, 54, 36);
   color: black;
 }
 
@@ -181,7 +181,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   border: none;
-  background: #00001a;
+  background: #001a08;
   color: white;
   outline: none;
 }
@@ -224,7 +224,7 @@ body {
 }
 
 .dots .active {
-  background: rgb(47, 3, 97);
+  background: rgb(3, 97, 84);
 }
 
 
@@ -239,7 +239,7 @@ body {
 
 /* CARD */
 .game-card {
-  background: #02001a;
+  background: #001a07;
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -265,7 +265,7 @@ body {
 .game-info h3 {
   font-size: 14px;
   font-weight: 600;
-  color: rgb(3, 2, 65);
+  color: rgb(2, 65, 10);
   margin-bottom: 4px;
 }
 
@@ -278,7 +278,7 @@ body {
 /* HOVER EFFECT */
 .game-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(23, 2, 61, 0.4);
+  box-shadow: 0 0 15px rgba(2, 61, 46, 0.4);
 }
 
 
@@ -303,7 +303,7 @@ body {
   font-weight: 700;
   line-height: 1;
   
-  background: linear-gradient(90deg, rgb(44, 3, 78), #3f3cff);
+  background: linear-gradient(90deg, rgb(3, 78, 74), #3cff4c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -356,7 +356,7 @@ body {
 /* judul */
 .artikel-text h2 {
   font-size: 18px;
-  color: rgb(42, 3, 87);
+  color: rgb(3, 87, 55);
   margin-bottom: 8px;
 }
 
@@ -369,7 +369,7 @@ body {
 
 /* highlight domain */
 .artikel-text span {
-  color: rgb(17, 0, 255);
+  color: rgb(30, 255, 0);
   font-weight: 600;
 }
 /* ================= ARTIKEL BANNER ================= */
@@ -391,13 +391,13 @@ body {
 /* hover efek */
 .banner-img:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 20px rgba(32, 1, 73, 0.3);
+  box-shadow: 0 0 20px rgba(1, 73, 39, 0.3);
 }
 
 /* judul */
 .artikel-banner h2 {
   font-size: 18px;
-  color: rgb(25, 0, 255);
+  color: rgb(0, 255, 0);
   margin-bottom: 6px;
 }
 
@@ -410,7 +410,7 @@ body {
 
 /* highlight domain */
 .artikel-banner span {
-  color: rgb(0, 38, 255);
+  color: rgb(0, 255, 0);
   font-weight: 600;
 }
 
@@ -448,7 +448,7 @@ body {
 /* ===== TITLE ===== */
 .footer-menu h3,
 .footer-info h3 {
-  color: rgb(24, 1, 49);
+  color: rgb(1, 49, 39);
   margin-bottom: 10px;
 }
 
@@ -475,7 +475,7 @@ body {
 }
 
 .footer-menu a:hover {
-  color: rgb(0, 38, 255);
+  color: rgb(21, 255, 0);
   padding-left: 5px;
 }
 
